@@ -1,40 +1,163 @@
-﻿body {
-}
+﻿/*#region font imports */
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Monoton&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Offside&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Anton', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Offside', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Offside&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Offside', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Offside&family=Raleway:wght@100&family=Space+Mono&display=swap');
+
+/*
+    font-family: 'Anton', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Offside', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+/*#endregion for font imports*/
 
 
+
+/*#region body and section */
 .bodyfaculty {
     background-color: lightgrey;
     /*background: linear-gradient(48, 114, 98, 1);*/
     width: 100%;
     height: 100%;
-    border: 1px solid blue;
-    border-radius: 49%;
+    /*border: 1px solid blue;*/
+    /*border-radius: 49%;*/
     margin: 0 auto;
     /*background-image: linear-gradient( blue, orange);*/
 }
 
 
-table {
-    width: 80%;
-    margin: auto;
-}
+/*.faculty {
+    background: #ff6a00;
+    max-height: 10%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}*/
 
-table, th, td {
-    /*border: 1px solid #fff;
-    border-collapse: collapse;*/
-}
-
-th, td {
-    padding: 15px;
-}
-
-/*#region nav style */
-.team {
+/*.team {
     font: 1em '', cursive;
     font-family: sans-serif;
+}*/
+
+
+/*#endregion */
+
+
+/*#region div region */
+
+div {
+    float: left;
+    padding: 10px;
 }
+
+.div1 {
+    /*background: purple;*/
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    /*border: solid;*/
+    height: 400px;
+    padding: 2%;
+}
+
+.div2 {
+    /*background: green;*/
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    /*border: solid;*/
+    height: 400px;
+    padding: 2%;
+}
+
+.div3 {
+    /*background: lightgreen;*/
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    /*border:solid;*/
+    height: 400px;
+    padding: 2%;
+}
+
+.div4 {
+    /*background: green;*/
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    /*border: solid;*/
+    height: 400px;
+    padding: 2%;
+}
+
+.div5 {
+    /*background: yellow;*/
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    /*border: solid;*/
+    height: 400px;
+    padding: 2%;
+}
+
+.div6 {
+    /*background: red;*/
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    /*border: solid;*/
+    height: 400px;
+    padding: 2%;
+}
+
+
+
+
+
+/*#endregion */
+
+
+/*#region nav style */
+/*.team {
+    font: 1em '', cursive;
+    font-family: sans-serif;
+}*/
 
 
 nav ul {
@@ -59,7 +182,6 @@ nav ul {
             display: block;
             color: white;
         }
-
 /*#endregion */
 
 /*#region h tags */
@@ -80,8 +202,7 @@ h1 {
 }
 
 h2 {
-    font: 1.5em '', cursive;
-    font-family: sans-serif;
+    font: 2.2em 'Monoton', cursive;
     /*background-color: aqua;*/
     border-radius: 10px;
     width: 75%;
@@ -90,6 +211,23 @@ h2 {
     text-align: center;
 }
 
+p {
+    font: 'spacemono', medium;
+}
 
 /*#endregion */
 
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table, th, td {
+    /*border: 1px solid #fff;
+    border-collapse: collapse;*/
+}
+
+th, td {
+    padding: 15px;
+}
