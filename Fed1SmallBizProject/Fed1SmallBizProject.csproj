@@ -67,6 +67,62 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="classes.html" />
+    <Content Include="contact.html" />
+    <Content Include="CSS\contactstyle.css" />
+    <Content Include="CSS\home.css" />
+    <Content Include="CSS\teamstylesheet.css" />
+    <Content Include="CSS\classStyleSheet1.css" />
+    <Content Include="Images\About image %281%29.png" />
+    <Content Include="Images\Amit 1 fig.png" />
+    <Content Include="Images\Aretha 1.png" />
+    <Content Include="Images\Billie1.png" />
+    <Content Include="Images\Blakey %282%29.png" />
+    <Content Include="Images\blakey playing %281%29.png" />
+    <Content Include="Images\blakey playing.png" />
+    <Content Include="Images\Blakey.png" />
+    <Content Include="Images\Contact SheetFed1Project.png" />
+    <Content Include="Images\Duke bandleading %281%29.png" />
+    <Content Include="Images\Duke E 1.png" />
+    <Content Include="Images\Duke Ellington-1024x595.jpg" />
+    <Content Include="Images\Franklin singing %281%29.png" />
+    <Content Include="Images\Franklin singing %282%29.png" />
+    <Content Include="Images\Head.png" />
+    <Content Include="Images\JessieSmith1.png" />
+    <Content Include="Images\Live sessions.png" />
+    <Content Include="Images\Logo 1 FS.png" />
+    <Content Include="Images\Ma Rain 1.png" />
+    <Content Include="Images\Miles writing 1.png" />
+    <Content Include="Images\Mixing board close up.png" />
+    <Content Include="Images\Music theory %281%29.png" />
+    <Content Include="Images\Music theory %282%29.png" />
+    <Content Include="Images\Music Theory.png" />
+    <Content Include="Images\percussion %281%29.png" />
+    <Content Include="Images\percussion.png" />
+    <Content Include="Images\piano %281%29.png" />
+    <Content Include="Images\piano.png" />
+    <Content Include="Images\Quincy 1 %281%29.png" />
+    <Content Include="Images\Quincy 1.png" />
+    <Content Include="Images\Quincy 2.png" />
+    <Content Include="Images\RaviMancuso.png" />
+    <Content Include="Images\Rectangle 1.png" />
+    <Content Include="Images\School pic 1 about us %281%29.png" />
+    <Content Include="Images\School pic 1 about us %282%29.png" />
+    <Content Include="Images\School pic 1 about us %283%29.png" />
+    <Content Include="Images\School pic 1 about us %284%29.png" />
+    <Content Include="Images\School pic 1 about us.png" />
+    <Content Include="Images\School pic 2 about us %281%29.png" />
+    <Content Include="Images\School pic 2 about us %282%29.png" />
+    <Content Include="Images\School pic 2 about us %283%29.png" />
+    <Content Include="Images\School pic 2 about us.png" />
+    <Content Include="Images\spacey keys.png" />
+    <Content Include="Images\studio vibes FS 1.png" />
+    <Content Include="Images\TaiBell1.png" />
+    <Content Include="Images\TinaSimone1.png" />
+    <Content Include="Images\WillGraham1.png" />
+    <Content Include="index - Copy.html" />
+    <Content Include="index.html" />
+    <Content Include="team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,6 +138,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
