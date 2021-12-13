@@ -69,7 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="classes.html" />
+    <Content Include="contact - Copy.html" />
     <Content Include="contact.html" />
+    <Content Include="CSS\contactstyle - Copy.css" />
     <Content Include="CSS\contactstyle.css" />
     <Content Include="CSS\home.css" />
     <Content Include="CSS\teamstylesheet.css" />
